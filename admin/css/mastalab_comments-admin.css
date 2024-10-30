@@ -1,0 +1,26 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#mastalab_comments_help {
+    list-style: square outside none;
+    margin-left: 15px;
+}
+#mastalab_comments_help  li{
+    list-style: square outside none;
+}
+
+
+.blockquote_mastalab_comments {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #282c37;
+    border-left:5px solid #9baec8;
+    background:#d9e1e8;
+}
+

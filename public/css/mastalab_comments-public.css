@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.mastalab_comments_counters{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+}
+.comments-container{
+    padding:5px;
+}
+.comments-container .comment .avatar {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+.comments-container #reference {
+    text-align: center;
+    font-size: 16px;
+}
+
+.comments-container .comment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.comments-container .toot {
+    padding-left: 82px;
+}
+
+.comments-container .author {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.comments-container .mastodon-like-count,
+.comments-container .mastodon-reblog-count,
+.comments-container .mastodon-reply-count
+{
+    float: right;
+    font-size: 16px;
+    background: #eee;
+    padding: 3px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.mastodon-reply-count a:hover, .mastodon-reply-count a:visited, .mastodon-reply-count a:link, .mastodon-reply-count a:active, .mastodon-reply-count a:-webkit-any-link
+{
+    text-decoration: none;
+}
+
+
+.comments-container .fa {
+    padding-right: 10px;
+}
+
+.mastalab_comments_reply{
+    margin-left: 50px;
+}
